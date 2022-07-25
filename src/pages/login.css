@@ -1,7 +1,7 @@
 body {
   background: #000;
 }
-.container {
+.mycontainer {
   margin-top: 5rem;
   margin-inline: 0;
   padding: 2rem;
@@ -23,7 +23,7 @@ form {
 input {
   border-radius: 0.6rem;
   color: rgb(166, 167, 168);
-  background-color: rgba(250, 128, 107, 0.082);
+  background-color: rgba(250, 128, 107, 0.014);
   border: 1px solid rgb(243, 43, 43);
   padding: 1em;
 }

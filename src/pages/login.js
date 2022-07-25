@@ -7,8 +7,8 @@ import "./login.css";
 const Basic = () => (
   <>
     <Header />
-    <div className="container mt-5 bg-black color-white mx-0">
-      <h1>Anywhere in your app!</h1>
+    <div className="container mycontainer mt-5 bg-black ">
+      <h1>Admin Login </h1>
       <Formik
         initialValues={{ email: "", password: "" }}
         validate={(values) => {
@@ -28,7 +28,7 @@ const Basic = () => (
             alert(JSON.stringify(values, null, 2));
             setSubmitting(false);
           }, 400);
-          window.location.replace("/category");
+          window.location.replace("/Category");
         }}
       >
         {({

@@ -9,12 +9,12 @@ const Header = () => {
         <nav id="nav">
           <ul>
             <li>
-              <Link className="link fw-bold" to="./Home">
+              <Link className="link fw-bold" to="/">
                 BURGER KING
               </Link>
             </li>
             <li>
-              <Link className="link fw-light" to="./Category">
+              <Link className="link fw-light" to="/Category">
                 Category
               </Link>
               <ul>
@@ -46,17 +46,17 @@ const Header = () => {
               </ul>
             </li>
             <li>
-              <Link className="link fw-light" to="./cart">
+              <Link className="link fw-light" to="/cart">
                 My Cart
               </Link>
             </li>
             <li>
-              <Link className="link fw-light" to="./About">
+              <Link className="link fw-light" to="/About">
                 About
               </Link>
             </li>
             <li>
-              <Link className="link fw-light" to="./login">
+              <Link className="link fw-light" to="/login">
                 Login
               </Link>
             </li>

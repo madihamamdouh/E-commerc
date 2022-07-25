@@ -112,7 +112,7 @@ const App = () => {
       <div className="bg-black">
         <Header />
         <Routes>
-          <Route path="/Home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route
             path="/Category"
             element={
@@ -123,7 +123,7 @@ const App = () => {
               />
             }
           />
-          <Route path="/About" element={<About />} />
+          <Route path="/About/*" element={<About />} />
           <Route path="/login" element={<Basic />} />
           <Route
             path="/cart"

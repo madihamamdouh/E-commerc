@@ -79,7 +79,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <section class="carousel">
+      {/* <section class="carousel">
         <div class="reel">
           <article>
             <Link to="#" class="image featured">
@@ -221,7 +221,7 @@ function Home() {
             </p>
           </article>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }

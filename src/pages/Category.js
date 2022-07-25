@@ -28,11 +28,12 @@ const Category = ({ products, category, handelAddToCart }) => {
     <>
       <div className="h-150 w-100 mb-5 mt-5 bg-black">{" gg"}</div>
       <div className="row m-1">
-        <div className="col-3 m-0 p-0">
+        <div className="col-3 m-0 p-0 bg-white">
           <ul class="list-group">
             {category.map((cat) => (
               <li
                 key={cat.id}
+                role="button"
                 className={
                   cat.id === currentCat
                     ? "list-group-item active"
@@ -47,7 +48,7 @@ const Category = ({ products, category, handelAddToCart }) => {
           </ul>
         </div>
         <div className=" col-9  overflow-hidden  ">
-          <table className="table mx-3 ">
+          <table className="table mx-3 text-light">
             <thead>
               <tr>
                 <th scope="col">Name</th>
